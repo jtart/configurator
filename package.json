@@ -1,0 +1,17 @@
+{
+  "name": "configurator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fetcher/fetcher.js",
+  "dependencies": {
+    "aws-sdk": "^2.72.0",
+    "bluebird": "^3.5.0",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
