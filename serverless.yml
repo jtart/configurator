@@ -12,15 +12,6 @@ functions:
   configFetcher:
     handler: fetcher/fetcher.fetch
     memorySize: 128
-    description: Submit candidate information and starts interview process.
+    description: Fetches config
     events:
-      - sns: config
-  snsTrigger:
-    handler: trigger/trigger.trigger
-    memorySize: 128
-    description: Triggers Config SNS
-    events:
-      - http:
-          path: config
-          method: post
       - sns: config
